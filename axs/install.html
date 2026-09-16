@@ -1,0 +1,460 @@
+<HTML>
+<HEAD>
+	<TITLE>AXS Visitor Tracking System: Manual Install Instructions</TITLE>
+	<META NAME="description" CONTENT="Describes how to download, customize, and install the product. Includes trouble-shooting tips. Include the list of all files and folders with descriptions.">
+<SCRIPT LANGUAGE="javascript"><!--
+var b_write = true;
+if ((navigator) && (navigator.appName) && (navigator.appName.indexOf("Netscape") != -1)) {
+	if (navigator.appVersion.indexOf("4.") == 0) {
+		document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.xav.com/images/style_b_n4.css">');
+		b_write = false;
+		}
+	else {
+		document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.xav.com/images/style_b_nn.css">');
+		b_write = false;
+		}
+	}
+if (b_write) {
+	document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.xav.com/images/style_b.css">');
+	}
+//--></SCRIPT><NOSCRIPT><LINK REL="stylesheet" TYPE="text/css" HREF="http://www.xav.com/images/style_b.css"></NOSCRIPT>
+</HEAD>
+<BODY>
+<CENTER><DIV STYLE="width:638px;align:center;text-align:left">
+
+<P><B>AXS Visitor Tracking System v2.3.0.0025</B></P>
+<P><B>Manual Install Instructions</B></P>
+
+<P>Last modified on Friday, November 30, 2001.</P>
+
+<P>This product has been designed for fast and easy installation. Follow these simple steps to get the script up and running in just a few minutes.</P>
+
+<OL>
+	<LI>
+
+		<P><B>Download</B></P>
+		<P>Download the product appropriate to your platform:</P>
+		<UL>
+			<LI> <A HREF="http://www.xav.com/scripts/axs/download/axs.2.3.0.0025.zip">www.xav.com/scripts/axs/download/axs.2.3.0.0025.zip</A> - Windows
+			<LI> <A HREF="http://www.xav.com/scripts/axs/download/axs.2.3.0.0025.tar.gz">www.xav.com/scripts/axs/download/axs.2.3.0.0025.tar.gz</A> - Unix
+			<LI> <A HREF="http://www.xav.com/scripts/axs/download//?N=D">www.xav.com/scripts/axs/download/</A> - all other versions
+		</UL>
+		<P>Each archive contains the exact same code, except that the Windows version uses "\r\n" line endings, and the Unix version uses "\n" endings.</P>
+		<P>The .tar.gz version can be decompressed with the command:</P>
+		<BLOCKQUOTE>
+			<TT>tar -fxz axs.2.3.0.0025.tar.gz</TT>
+		</BLOCKQUOTE>
+		<P>The .zip version can be decompressed with Winzip from www.winzip.com.</P>
+
+		<P>If you install a version other than 2.3.0.0025, follow the install file included with it, rather than this one.</P>
+
+		<P><BR></P>
+
+	<LI>
+		<P><B>Build Directory Structure</B></P>
+
+		<P>The script uses a specific directory structure to organize its libraries and data files. When the downloaded archives are expanded, they will automatically expand into the desired structure. You must retain that structure when transferring files between computers.</P>
+
+		<P>For your reference, <A HREF="#ap2">Appendix II</A> contains a detailed list of all files and folders, describing what they do and where they belong.</P>
+
+		<P><B>Note:</B> this script uses <I>relative paths</I> extensively, and so its very demanding about its directory structure. It does not use <I>absolute paths</I> at all, however. That means you don't need to enter the absolute path into the script configuration files (if it needs to know its absolute path, it will auto-detect it).</P>
+
+		<P><BR></P>
+
+	<LI>
+		<P><B>Customize Script</B></P>
+
+		<P>In this step, you customize the CGI script files. Some library and data files also use the ".pl" extension, but those files <I>must not</I> be renamed or edited. The only files that you should edit are:</P>
+
+		<UL>
+
+<LI> axs/ax.pl
+<LI> axs/ax-admin.pl
+<LI> axs/convert.pl
+
+		</UL>
+
+		<P>99% of this script is configured after the install is complete, using the admin control panel. Only two things need to be configured during installation:</P>
+
+
+		<OL>
+			<LI>
+				<P><B>Path to Perl</B>
+
+				<P>In 99% of cases, the default path to Perl of "/usr/bin/perl" will work and you won't need to edit the source code at all. In the remaining cases, you must edit the first line of each script file to point the appropriate path. Common alternate locations include "/usr/local/bin/perl" and "/usr/bin/perl5".</P>
+
+				<P>How do you know if you will need a custom path? Your web hosting provider should tell you. Or if you have existing Perl CGI scripts that work, you can copy the first line from them. Or if, after following all the instructions here, the script returns "Internal Server Error" when you visit it with a browser, the problem may be the path to Perl, and you may want to experiment with the alternate locations. Internal Server Error can mean a lot of things and the path to Perl is only one of them.</P>
+
+				<P>When you open the script file to edit the path to Perl, use the most hardcore text editor you have. Like, Wordpad on Windows, Simple Text on Mac, vi on Unix. Do not use high-level editors like Microsoft Word or HTML editors like FrontPage. There is a risk that these high-level editors will damage the code.</P>
+
+			<LI>
+				<P><B>Perl CGI File Extension</B>
+				<P>In 99% of cases, the default CGI file extension of ".pl" will work and you won't need to change it. In the remaining cases, you must rename the CGI script files to use the appropriate file extension for your system. Some require ".cgi", and others require weird extensions like ".plx".</P>
+
+				<P>How do you know what extension is needed? Your web hosting provider should tell you. Or, if you have existing Perl CGI scripts that work, you can copy whatever extension they use. Or if, after following all other instructions listed here, your script returns its own source code when you visit it with a browser, or returns some other error, then the problem may be the extension. You may want to experiment with both ".pl" and ".cgi".</P>
+
+		</OL>
+
+		<P>There are loose standards for these values - /usr/bin/perl and .pl - but not all web hosts adhere to them. This is not our fault. If your web host requires you to use /usr/foo/perl and the .cgi extension, please take this into account while reading program documentation that continues to make reference to /usr/bin/perl and "script.pl". Our docs are centralized and are not aware of what kind of strange values you've been forced to use. When our docs say "script.pl", and on your system you've been forced to use "script.cgi", then you need to treat "script.pl" as "script.cgi" while reading the document.</P>
+
+		<P><BR></P>
+
+	<LI>
+		<P><B>Transfer Files</B></P>
+		<P>Unless you're doing all of your work on the web server itself, you must transfer the files and folders over to your web server. When transferring script files or data files in FTP, always use ASCII mode.</P>
+
+		<P>If your web server requires that CGI scripts be installed into a special folder, like "cgi-bin" or "cgi", then install all of the files to that folder.</P>
+
+		<P><BR></P>
+
+	<LI>
+
+		<P><B>Set Permissions</B></P>
+
+		<P>The easiest way to set permissions is to run the "setperms" script appropriate for your platform. Run setperms.bat on Windows and setperms.sh on Unix.</P>
+
+		<P>If you have only FTP access to a Unix server, then you can set the permissions with FTP while you're transferring. Use the permissions guide in Appendix II below.</P>
+
+		<P>If you have a Windows web server without shell access, then typically you won't be able to run "setperms.bat" from the command line nor set permissions via FTP.  In this case, the best approach is to try an install anyway (the server file system is often read/write/exec by default). If this doesn't work then contact the tech support people and ask them to run setperms.bat for you. If tech support can't help, you can use the Auto Installer process. It will attempt a few work-arounds to remotely set Windows file permissions. The methods don't always work so keep your tech support people as a backup.</P>
+
+		<P><B>Advanced:</B></P>
+
+		<P>CGI processes are usually executed under a user context different than your login account. Your login account owns the files and folders that store data. Because CGI processes are only allowed to write to files and folders which they own, or for which they've been given special permission, we take the extra step to make all data files and folders world-writable (any and all processes are allowed to write to them). That way, data can be saved by any user/process, and thus the script will work no matter how your CGI privileges have been configured.</P>
+
+		<P>Obviously, if your web server runs CGI processes under your login account context and not a separate context, then you may apply more restrictive permissions. Data folders can have permission 755 instead of 777; data files can have permission 744 instead of 766. If you are using CGI Wrap, or if you are installing to Hypermart.net or Netfirms.com, then this applies to you and you may use the more restrictive permissions.</P>
+
+		<P><BR></P>
+
+	<LI>
+		<P><B>Test</B></P>
+		<P>Visit the URL "axs/ax-admin.pl" to get started.</P>
+		<P>(In this example we use the ".pl" file extension for Perl CGI scripts. As mentioned earlier, some web servers require the ".cgi" extension or some other. Use whatever file name you decided upon earlier in section 3 part 2.)</P>
+		<P>Please visit your admin page immediately. There is no username or password required by default, but you can configure them by opening the 'ax-admin.pl' script and entering values for $Username and $Password. Before any visits are logged, you must follow the instructions under "Instructions for Tagging HTML Pages", linked from the bottom of the admin page.</P>
+		<P><BR></P>
+	</OL>
+
+<P><B>Manual Install Complete!</B></P>
+
+<HR SIZE=1>
+
+<A NAME="ap1"></A>
+
+<P><BR></P>
+
+<P><B>Appendix I: Error Handling</B></P>
+
+<P>If you run into trouble, consider an automated install. The automatic install can self-heal from most common error conditions.</P>
+<P>Free custom installs are available from the script author (as of Friday, November 30, 2001). To take advantage of this service, first attempt an automatic install. If it fails, you will have the option to forward an install request. Installs are usually finished within 24 hours.</P>
+<P>You can also visit the <A HREF="http://www.xav.com/scripts/forum.pl">Discussion Forum</A> with a description of your problem. It stays very busy and there are many helpful people there.</P>
+<P>The Auto-Installer is here: <A HREF="http://www.xav.com/cgi-sys/cgiwrap/xav/install.cgi">www.xav.com/cgi-sys/cgiwrap/xav/install.cgi</A></P>
+
+<A NAME="ap2"></A>
+
+<P><BR></P>
+
+<P><B>Appendix II: Directory Structure and File Descriptions</B></P>
+
+<P><BR></P>
+
+<P>This file manifest applies to version 2.3.0.0025. If you are installing a different version, use the install.html file included with it.</P>
+
+<P>The file permissions are modeled on the default Apache or Microsoft IIS permissions system, where a user account owns the files and a separate, unprivileged account, executes the CGI scripts. This is not the most secure configuration in the world, but it is the default that has been established, and so these file permissions follow it. If you have a system where your CGI scripts are executed under your user account context (as when using CGIWrap, when using setuid Perl, using Hypermart.net or many other free web hosts, etc.) then you can and should replace all permissions with 755/rwxr-xr-x.</P>
+
+<P><BR></P>
+
+<TABLE>
+<TR>
+<TD VALIGN=top>
+
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1>
+<TR>
+	<TH COLSPAN=2>Icons</TH>
+</TR>
+<TR>
+	<TD><IMG SRC="http://www.xav.com/images/mkdir.gif" HEIGHT=16 WIDTH=16></TD>
+	<TD>folder</TD>
+</TR>
+<TR>
+	<TD><IMG SRC="http://www.xav.com/images/force.gif" HEIGHT=16 WIDTH=16></TD>
+	<TD>script file</TD>
+</TR>
+<TR>
+	<TD><IMG SRC="http://www.xav.com/images/upload.gif" HEIGHT=16 WIDTH=16></TD>
+	<TD>data file</TD>
+</TR>
+<TR>
+	<TD><IMG SRC="http://www.xav.com/images/trans.gif" HEIGHT=8 WIDTH=8 HSPACE=3 VSPACE=3 BORDER=1></TD>
+	<TD>optional file</TD>
+</TR>
+</TABLE>
+
+</TD>
+<TD VALIGN=top>
+
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1>
+<TR>
+	<TH COLSPAN=2>Required</TH>
+</TR>
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD>Required file or folder</TD>
+</TR>
+<TR>
+	<TD><INPUT TYPE=checkbox></TD>
+	<TD>Optional file or folder</TD>
+</TR>
+</TABLE>
+
+</TD>
+<TD VALIGN=top>
+
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1>
+<TR>
+	<TH COLSPAN=2>Permissions</TH>
+</TR>
+<TR>
+	<TD><TT>755 / rwx r-x r-x</TT></TD>
+	<TD>read and execute</TD>
+</TR>
+<TR>
+	<TD><TT>766 / rwx rw- rw-</TT></TD>
+	<TD>read and write</TD>
+</TR>
+<TR>
+	<TD><TT>777 / rwx rwx rwx</TT></TD>
+	<TD>read, write, and execute</TD>
+</TR>
+</TABLE>
+
+</TD>
+</TR>
+</TABLE>
+
+<P><BR></P>
+
+</DIV>
+
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1>
+<TR>
+	<TH COLSPAN=4 ALIGN=left>Is Required Object</TH>
+</TR>
+<TR>
+	<TH><BR></TH>
+	<TH>Permissions</TH>
+	<TH>File / Folder</TH>
+	<TH>Description</TH>
+</TR>
+
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/mkdir.gif" WIDTH=16 HEIGTH=16> axs</NOBR></TD>
+	<TD><NOBR></NOBR><BR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> ax-admin.pl</NOBR></TD>
+	<TD><NOBR>Admin script -- displays visits
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> ax.pl</NOBR></TD>
+	<TD><NOBR>Tracking script -- logs visits
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox></TD>
+	<TD><NOBR><TT>766 / rw-</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/trans.gif" HEIGHT=8 WIDTH=8 HSPACE=3 VSPACE=3 BORDER=1> axs.dat</NOBR></TD>
+	<TD><NOBR>Preferences file for storing admin settings
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> convert.pl</NOBR></TD>
+	<TD><NOBR>Utility script - converts the AXS log
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/trans.gif" HEIGHT=8 WIDTH=8 HSPACE=3 VSPACE=3 BORDER=1> install.html</NOBR></TD>
+	<TD><NOBR>Manual install help file
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/trans.gif" HEIGHT=8 WIDTH=8 HSPACE=3 VSPACE=3 BORDER=1> license.html</NOBR></TD>
+	<TD><NOBR>License agreement
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox></TD>
+	<TD><NOBR><TT>766 / rw-</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/trans.gif" HEIGHT=8 WIDTH=8 HSPACE=3 VSPACE=3 BORDER=1> log.txt</NOBR></TD>
+	<TD><NOBR>Log file for storing visit data
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/upload.gif" WIDTH=16 HEIGHT=16> red.gif</NOBR></TD>
+	<TD><NOBR>Small image used for creating bar graphs
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/trans.gif" HEIGHT=8 WIDTH=8 HSPACE=3 VSPACE=3 BORDER=1> setperms.bat</NOBR></TD>
+	<TD><NOBR>Windows batch file for setting file permissions
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/trans.gif" HEIGHT=8 WIDTH=8 HSPACE=3 VSPACE=3 BORDER=1> setperms.sh</NOBR></TD>
+	<TD><NOBR>Unix shell script for setting file permissions
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/upload.gif" WIDTH=16 HEIGHT=16> tracker.jpg</NOBR></TD>
+	<TD><NOBR>Script logo, used on admin page
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>777 / rwx</TT></NOBR></TD>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/mkdir.gif" WIDTH=16 HEIGTH=16> axs/data</NOBR></TD>
+	<TD><NOBR></NOBR><BR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> sld.txt</NOBR></TD>
+	<TD><NOBR>List of general second-level domain descriptions (.co.uk == company)
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> states.txt</NOBR></TD>
+	<TD><NOBR>List of US states second-level domain descriptions (.fl.us == Florida)
+<BR></NOBR></TD>
+</TR>
+
+<TR>
+	<TD><INPUT TYPE=checkbox CHECKED DISABLED></TD>
+	<TD><NOBR><TT>755 / r-x</TT></NOBR></TD>
+	<TD><NOBR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> tld.txt</NOBR></TD>
+	<TD><NOBR>List of top-level domain descriptions (.mil == Military)
+<BR></NOBR></TD>
+</TR>
+
+
+<TR>
+	<TH><BR></TH>
+	<TH>Permissions</TH>
+	<TH>File / Folder</TH>
+	<TH>Description</TH>
+</TR>
+<TR>
+	<TH COLSPAN=4 ALIGN=left>Is Required Object</TH>
+</TR>
+</TABLE>
+
+<DIV STYLE="width:638px;align:center;text-align:left">
+
+<P><BR></P>
+
+<P><BR></P>
+
+<P><B>Appendix III: Upgrade</B></P>
+
+<P>To upgrade over a previous installation, without losing data, replace only these files:</P>
+
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1>
+<TR>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> axs/ax-admin.pl</NOBR></TD>
+	<TD><NOBR>Admin script -- displays visits
+</NOBR><BR></TD>
+</TR>
+<TR>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> axs/ax.pl</NOBR></TD>
+	<TD><NOBR>Tracking script -- logs visits
+</NOBR><BR></TD>
+</TR>
+<TR>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> axs/convert.pl</NOBR></TD>
+	<TD><NOBR>Utility script - converts the AXS log
+</NOBR><BR></TD>
+</TR>
+<TR>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> axs/data/sld.txt</NOBR></TD>
+	<TD><NOBR>List of general second-level domain descriptions (.co.uk == company)
+</NOBR><BR></TD>
+</TR>
+<TR>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> axs/data/states.txt</NOBR></TD>
+	<TD><NOBR>List of US states second-level domain descriptions (.fl.us == Florida)
+</NOBR><BR></TD>
+</TR>
+<TR>
+	<TD><NOBR><IMG SRC="http://www.xav.com/images/force.gif" WIDTH=16 HEIGHT=16> axs/data/tld.txt</NOBR></TD>
+	<TD><NOBR>List of top-level domain descriptions (.mil == Military)
+</NOBR><BR></TD>
+</TR>
+
+</TABLE>
+
+<P><BR></P>
+
+<P><B>Appendix IV: Uninstall</B></P>
+
+<P>To remove the product, simply delete the folder that contains all the scripts and data files. The script does not effect anything outside of its folder.</P>
+
+<P><BR></P>
+
+<P><B>Appendix V: Additional Resources</B></P>
+
+<UL>
+	<LI><A HREF="http://www.xav.com/scripts/axs/">General Product Information</A>
+	<LI><A HREF="http://www.xav.com/scripts/axs/changes.html">Version History</A>
+	<LI><A HREF="http://www.xav.com/scripts/axs/install.html">Manual Install Instructions</A>
+	<LI><A HREF="http://www.xav.com/notify/?join=axs">Update Notification for New Versions</A>
+</UL>
+<P><BR></P>
+
+<P><BR></P>
+
+<P ALIGN="right" STYLE="font-size:8pt">
+	<SPAN STYLE="font-size:8pt;color:#888888">© 1997-2001 by Zoltan Milosevic</SPAN>
+</P>
+
+</DIV></CENTER>
+
+</BODY>
+</HTML>
+
+
