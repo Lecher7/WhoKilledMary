@@ -1,0 +1,35 @@
+li{
+	list-style-image:url('images/probul1.gif');
+}
+h2{
+	text-align:center;
+}
+font.footer{
+	font-size:8pt;
+	color:#009999;
+}
+td.hideIt{
+	font-size:6pt;
+	font-family:verdana;
+}
+td.txtMain{
+	font-size:12pt;
+	font-family:times;
+}
+img{
+	border :0 none ;
+}
+a{
+	text-decoration : none;
+}
+a:link{
+	color:#EEEEEE;
+}
+a:visited{
+	color:#FFFF33;
+}
+a:hover{
+	color:#0000FF;
+}
+
+<! -- This is for the line items //src="_themes/profile/probul1.gif" -->

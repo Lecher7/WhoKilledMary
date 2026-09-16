@@ -1,0 +1,492 @@
+
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<title>WhoKilledChef.com</title>
+<meta name="Description" content="The Best Source for Chef Information">
+<meta name="Keywords" content="queensryche, chef, adam, brady, freezing, digital">
+<meta name="Author" content="Adam Larson">
+<meta name="Robots" content="All">
+<meta name="revisit-after" Content="14 days">
+<meta name="Copyright" content="Copyright 2003 - Freezing In Digital">
+</head>
+
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" link="#EEEEEE" text="#EEEE00" vlink="#FFFF33" bgcolor="#000000" alink="#FFFF33" onLoad="if (self != top) top.location = self.location" background="images/background.jpg">
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tr><td colspan="6" align="center">
+
+<img border="0" src="images/whokilledchefbanner.jpg" align="left" width="405" height="108"></td>
+</tr>
+<tr>
+<td bgcolor="#353535" height="25" valign="middle" style="font-size: 11px; font-family: verdana, sans-serif;" align="center">
+<p align="center">&nbsp;
+Welcome, Chef Fan! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.whokilledchef.com/guestbook">Guestbook!&nbsp;</a>&nbsp;&nbsp; &nbsp;<a href="tour_info.htm">Tour Info</a> &nbsp;·&nbsp;
+<a href="http://www.whokilledchef.com/forum">Message Boards</a></td>
+</form>
+</tr>
+<tr><td valign="top" align="center">
+
+ <table width="100%" border="0" cellspacing="1" cellpadding="5">
+ <tr valign="top"><td width="250" align="center">
+<font face="verdana" size="1">
+<table width="100%" border="0" height="22">
+<tr><td align="center" valign="top" style="font-size: 11px; font-family: verdana, sans-serif;" NOWRAP>
+<!--Date-->
+		<!-- DATE SCRIPT S -->
+<script language="JavaScript">
+    // -- ©2001 John DiBella -- Please give credit where credit is due
+    days = new Array(7)
+    days[1] = "Sun";
+    days[2] = "Mon";
+    days[3] = "Tue";
+    days[4] = "Wed";
+    days[5] = "Thu";
+    days[6] = "Fri";
+    days[7] = "Sat";
+    months = new Array(12)
+    months[1] = "January";
+    months[2] = "February";
+    months[3] = "March";
+    months[4] = "April";
+    months[5] = "May";
+    months[6] = "June";
+    months[7] = "July";
+    months[8] = "August";
+    months[9] = "September";
+    months[10] = "October";
+    months[11] = "November";
+    months[12] = "December";
+    today = new Date(); day = days[today.getDay() + 1]
+    month = months[today.getMonth() + 1]
+    date = today.getDate()
+    year=today.getYear();
+if (year < 2000)
+year = year + 1900;
+    document.write (" "+ day + ", " + month + " " + date + ", " + year + "")
+    // -- end hiding
+    </script>
+		<!-- DATE SCRIPT F -->
+<!--Date-->
+<!--Track-->
+	<script LANGUAGE="JavaScript">
+	<!--
+		document.write("<IMG SRC=\"/Tate/axs/ax.pl?trans.gif&ref=");
+		document.write(document.referrer);
+		document.write("\" HEIGHT=1 WIDTH=1>");
+	// -->
+	</script><noscript>
+<!--Track-->
+</td></tr></table>
+</font>
+
+   <table width="100%" border="0" cellspacing="1" cellpadding="5" style="font-size: 10px; font-family: verdana, sans-serif;" class="menu">
+   <tr><td bgcolor="#303050" width="100%" align="center" valign="middle">
+   	<FORM action="http://www.chefdollarhide.com" method="post">
+       Chef
+       Fan Club Login
+		</td></tr>
+<tr><td>
+
+			User: <INPUT TYPE="TEXT" SIZE=20 MAXLENGTH=30 name="user" value="" style="width:110px;">
+			Pass: <INPUT TYPE="PASSWORD" SIZE=20 MAXLENGTH=20 name="pass" value="" style="width:110px;">
+			<center><INPUT TYPE="SUBMIT" VALUE="Login">&nbsp
+            <a href="mailto:brady@whokilledchef.com?subject=Password For Club Chef">Join</a></center>
+		</form>
+   </td></tr>
+   <tr><td bgcolor="#303050" width="100%" align="center" valign="middle">
+Chef-ormation
+   </td></tr>
+<tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='news/news.htm'">
+<a href="news/news.htm">News</a><noscript><a href="news/news.htm">news\news.htm</a></a></noscript></td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+Updates<noscript><a href="unfinished.htm">Not Yet 
+Tough Guy!</a></a></noscript></td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='about_chef.htm'">
+About Chef&nbsp;
+   </td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='tour_info.htm'">
+Tour Info</td></tr>
+   <tr><td bgcolor="#353535" nowrap onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='./forum/'">
+FORUMS!</td></tr>
+
+   <tr><td bgcolor="#353535" nowrap onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='chef_facts.htm'">
+Chef Facts</td></tr>
+
+   <tr><td bgcolor="#303050" width="100%" align="center">
+      &nbsp;</td></tr>
+
+   <tr><td bgcolor="#303050" width="100%" align="center">
+      The Chef Family
+         </td></tr>
+         <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='http://www.chefdollarhide.com'">
+      Chef</td></tr>
+         <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+      Susan</td></tr>
+         <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+      Dani</td></tr>
+         <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+      Bob The Dog</td></tr>
+         <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+      The Other Dog</td></tr>
+         <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+         Chef's Pet Rock</td></tr>
+
+   <tr><td bgcolor="#303050" width="100%" align="center">
+&nbsp;</td></tr>
+
+   <tr><td bgcolor="#303050" width="100%" align="center">
+Community
+   </td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='./forum/'">
+Forums</td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='./guestbook/'">
+Guestbook</td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+Auctions - Coming Soon</td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+&nbsp;</td></tr>
+   <!--   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';"onclick="window.location.href='http://38.148.250.3/cgi-win/client.exe?readers,welcome,ad8966a,2000'">&#183; <noscript><a href="http://38.148.250.3/cgi-win/client.exe?readers,welcome,ad8966a,2000"></noscript>User Survey<noscript></a></noscript></font>   </td></tr>   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';"onclick="window.location.href='/guestbook/guestbook.php'">&#183; <noscript><a href="file:///C:/Documents and Settings/Adam Larson/My Documents/My Webs/chef/guestbook/guestbook.php"></noscript>GuestBook<noscript></a></noscript></font>   </td></tr>-->
+
+   <tr><td bgcolor="#303050" width="100%" align="center">
+&nbsp;</td></tr>
+
+   <tr><td bgcolor="#303050" width="100%" align="center">
+Misc.
+   </td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+Chef Fan Club</td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='links.htm'">
+Links!</td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='contests.htm'">
+   Contests</td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='pictures.htm'">
+   Pictures</td></tr>
+   <tr><td bgcolor="#353535" onMouseOver="this.style.backgroundColor='#303050'; this.style.cursor='hand';" onMouseOut="this.style.backgroundColor='#353535';" onclick="window.location.href='unfinished.htm'">
+<noscript></a></noscript>&nbsp;</td></tr>
+<tr>
+  <td>
+		&nbsp;</td>
+</tr>
+   </table>
+<br>
+
+ </td>
+ <td width="80%" valign="top">
+<center>
+<table width="95%" style="font-family: verdana, sans-serif;">
+<tr><td>
+
+<!-- BEGIN_PRINTER_FRIENDLY_COPY -->
+
+<!--Começo tabela-->
+<table cellspacing="2" width="100%" border="0">
+<tr>
+<td width="70%" valign="top">
+<!--Começo tabela-->
+
+<center style="font-size:11px" ;>
+Hello, and welcome to the greatest Chef community on the net since 2003!<br>
+&nbsp;</center>
+
+
+
+<!--Desktop-->
+<center>
+<a href="images/fatchef.jpg">
+<img border="0" src="images/ChefHead.jpg" width="75" height="96"></a>
+<p>Click Chef's Head For The Picture Of The Week!</p>
+</center>
+
+<table width="100%">
+<tr><td bgcolor="#303050">
+ <div align="right">
+ <font color="#EFC639">Chef</font><font size="3" color="#EFC639"> News</font>
+ </div>
+</td></tr>
+<tr><td>
+<table width="100%" cellpadding="2">
+
+<a name="newsitemN000000001,00076,"></a>
+<tr><td align="right" valign="middle" nowrap>
+07-08: </td><td>
+Uploaded Version 1</td></tr>
+
+<a name="newsitemN000000001,00075,"></a>
+<tr><td align="right" valign="middle" nowrap>
+07-01: </td><td>
+WhoKilledChef.com goes live</td></tr>
+
+<a name="newsitemN000000001,00074,"></a>
+<tr><td align="right" valign="middle" nowrap>
+2000:</td><td>
+We Meet Chef</td></tr>
+
+<a name="newsitemN000000001,00073,"></a>
+<tr><td align="right" valign="middle" nowrap>
+??-??:</td><td>
+Chef Becomes A Chef</td></tr>
+
+<a name="newsitemN000000001,00072,"></a>
+<tr><td align="right" valign="middle" nowrap>
+??-??:</td><td>
+Chef Was Born</td></tr>
+<!--
+<a name="newsitemN000000001,00071,"></a>
+<tr><td align="right" valign="middle" nowrap>
+05-02 </td><td>
+<a href="News/news.htm#newsitemN000000001,00071,">What you don't know...</a></td></tr>
+
+<a name="newsitemN000000001,00070,"></a>
+<tr><td align="right" valign="middle" nowrap>
+04-27 </td><td>
+<a href="News/news.htm#newsitemN000000001,00070,">Bad karma</a></td></tr>
+
+<a name="newsitemN000000001,00069,"></a>
+<tr><td align="right" valign="middle" nowrap>
+04-25 </td><td>
+<a href="News/news.htm#newsitemN000000001,00069,">MORE New Release info</a></td></tr>
+-->
+
+</table>
+<font size="1">
+<center>[ <a href="news/news.htm">More News</a> ]
+</font>
+</td></tr></table>
+<!--News-->
+
+<br>
+
+<table width="100%">
+<tr><td bgcolor="#303050">
+ <div align="right">
+ <font size="3" color="#EFC639">&nbsp;Chefs Upcoming Tours/Concerts</font>
+ </div>
+</td></tr>
+<tr><td>
+<font size="2" face="verdana">
+<table width="100%"><tr><td align="right" valign="middle" nowrap>
+Chicago&nbsp; Queensryche:</td><td>Chef has wussed out of this one</td></tr>
+<tr><td align="right" valign="middle" nowrap>
+Wisconsin Alice Cooper:</td><td>Chef May attend?&nbsp; Probably not.</td></tr>
+<tr><td align="right" valign="middle" nowrap>
+Minneapolis Queensryche:</td><td>Oooh sounds like Chef will go, he will probably 
+  cancel later.</td></tr>
+<tr><td align="right" valign="middle" nowrap>
+&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<center>
+<font size="1">[ <a href="unfinished.htm">More Information</a> ]</font></center>
+</td></tr></table>
+<!--Tour/Concert-->
+
+<br>
+
+
+<table width="100%">
+<tr><td bgcolor="#303050">
+ <div align="right">
+ <font size="3" color="#EFC639">Featured Album</font>
+ </div>
+</td></tr>
+<tr><td>
+  <table width="100%">
+  <tr><td width="75">
+  <img border="0" src="images/HM%20cover.jpg" width="106" height="106">
+  </td><td width="90%"><center>
+  <h4><a href="discog/QR/rfo/rage_for_order.html">Heathen Machine</a></h4>
+  <font size="2">Comming in 2003</font></center>
+  </td></tr>
+  <tr><td colspan="2">
+<p style="line-height: 1.20">Ok, so this was the only album cover I had on my 
+computer when plagerizing this site...&nbsp; The album has been recorded/mixed 
+and mastered, of course Chef will probably hate it, but normal people will love 
+it!&nbsp; Does Chef ever buy Balance of Power?&nbsp; (Answer: No)</td></tr>
+  </table>
+</td></tr></table>
+<!--Album-->
+
+<br>
+
+<table width="100%">
+<tr><td bgcolor="#303050">
+ <div align="right">
+ <font size="3" color="#EFC639">We Need Your Help</font>
+ </div>
+</td></tr>
+<tr><td>
+<center>
+<table width="98%"><tr><td>
+<p style="line-height: 1.20">
+
+It's people like you who help make this site great! Do you have anything Chef-related that you don't
+see here? An autograph, pictures, homo-erotic adventure, poster, magazine or newspaper article, video or audio tape,
+original artwork, songs or poems, photos you took from outside Chef's window, etc.? Would you like
+to write an article or a chef review?
+If so, please <a href="mailto:brady@whokilledchef.com?subject=Web Submission">contact us</a>!
+We'd love to hear from you and feature those things on this web site.
+</td></tr></table>
+<p>
+</center>
+</td></tr></table>
+<!--Help Us-->
+
+<!*****************************-->
+<!--Separater-->
+</td>
+<td width="50">
+</td>
+<td width="35%" valign="top">
+<!--Separater-->
+<!*****************************-->
+
+<!--Email-->
+<table width="100%">
+<!--<tr><td bgcolor="#303050"> <div align="right"> <font size="3" color="#EFC639">Free E-mail</font> </div></td></tr><tr><td> <form name="loginform" action="http://mail.bigmailbox.com/users/whokilledmarycom/enter.cgi" method="post"><center><table><tr><td align="center"> <font size="1">E-mail Login</font><br> <input type="text" size="12" name="un" value STYLE="font-size:12px;" class="box"></td></tr><tr><td align="center"> <font size="1">Password</font><br> <input type="password" size="12" name="pw" value STYLE="font-size:12px;" class="box"></td></tr><tr><td valign="bottom" align="center" width="15%"><input type="submit" name="login" value="Login" STYLE="font-size:12px;"></td></form></tr>-->
+<tr>
+<td valign="middle" align="center" colspan="3">
+<font size="1"><center><a href="unfinished.htm">Sign up</a> for a chance to win great prizes!</center></font>
+<!--</td></tr></table>-->
+</td></tr></table>
+<!--Email-->
+
+<center>
+	<p>
+	<font size="3" color="#EEEEEE" face>
+	<b>WhoKilledChef.com Voting Booth</b></font></p>
+    <table border="0">
+		<tr><td align="center"><font size="2" color="#EEEEEE" face="Verdana,Arial,Helvetica">
+			Only one vote per day, please!.</font></td>
+		</tr>
+	      </table></center>
+	    <form action="http://pub46.bravenet.com/vote/stats.php" method="post" target="blank">
+		<input type="hidden" name="usernum" value="3882865877">
+		<input type="hidden" name="justlooking" value="no">
+		<center><table cellpadding="0" cellspacing="0" border="0">
+			<tr><td><table cellpadding="2" cellspacing="1" border="0">
+			<tr>
+			  <td>
+			  <!-- Start here -->
+			  <table width="100%" border="0">
+								<tr><td><font size="2" color="#EEEEEE" face="Verdana,Arial,Helvetica">
+									<u><b>Question #1</b></u></font></td>
+								</tr>
+								<tr><td valign="top">			<b>
+                                  <font face="Verdana,Arial,Helvetica" size="2" color="#00FFFF">
+                                  If you were to have Chef Cook For you, what 
+                                  would you like to eat?</font></b></td>
+								</tr>
+							</table>
+							<table width="100%" border="0" cellpadding="1" cellspacing="0"><tr><td valign="top" align="right" width="10%"><input type="radio" name="aid1" value="1323377"></td>
+							 	  <td valign="top" width="90%">		
+                                  <font face="Verdana,Arial,Helvetica" size="2" color="#00FFFF">
+                                  Chef's Belly Lint</font></td>
+								</tr><tr><td valign="top" align="right" width="10%"><input type="radio" name="aid1" value="1323378"></td>
+							 	  <td valign="top" width="90%">		
+                                  <font face="Verdana,Arial,Helvetica" size="2" color="#00FFFF">
+                                  Fingernails</font></td>
+								</tr><tr><td valign="top" align="right" width="10%"><input type="radio" name="aid1" value="1323379"></td>
+							 	  <td valign="top" width="90%">		
+                                  <font face="Verdana,Arial,Helvetica" size="2" color="#00FFFF">
+                                  Mystery Meat (and Sauce)</font></td>
+								</tr><tr><td valign="top" align="right" width="10%"><input type="radio" name="aid1" value="1323380"></td>
+							 	  <td valign="top" width="90%">		
+                                  <font face="Verdana,Arial,Helvetica" size="2" color="#00FFFF">
+                                  Artichoke Hearts and Bacon</font></td>
+								</tr><tr><td valign="top" align="right" width="10%"><input type="radio" name="aid1" value="1323381"></td>
+							 	  <td valign="top" width="90%">		
+                                  <font face="Verdana,Arial,Helvetica" size="2" color="#00FFFF">
+                                  Anything As Long as he's naked</font></td>
+								</tr>	</table>
+				<!-- End here -->
+				</td>
+			</tr>
+		      </table></td></tr></table>I haven't got code behind this, so you 
+        can poll with yourself!
+		</form>
+<!--Polls-->
+
+<br>
+
+&nbsp;<table width="100%">
+<tr><td bgcolor="#303050">
+ <div align="right">
+ <font size="3" color="#EFC639">Featured CD</font>
+ </div>
+</td></tr>
+<tr><td>
+<center>
+<img border="0" src="images/HM%20cover.jpg" width="106" height="106"><br><b>
+Heathen Machine</b><br>CD<br><br>
+</td></tr></table>
+<!--Video-->
+
+<br>
+
+<table width="100%">
+<tr><td bgcolor="#303050">
+ <div align="right">
+ <font size="3" color="#EFC639">Featured Dog</font>
+ </div>
+</td></tr>
+<tr><td>
+<center>
+<img border="0" src="images/sm_HoneyHead.gif" width="90" height="109"><br><b>Honey!</b><br>
+</td></tr></table>
+<!--Book-->
+
+
+
+
+<!--End Table-->
+</td>
+</tr>
+</table>
+<!--End Table-->
+<!-- END_PRINTER_FRIENDLY_COPY -->
+<br><br>
+<center>
+<!--Bottom Banner-->
+</center>
+</td></tr></table>
+</td>
+
+<td width="1"><!--<a target="_blank" href="http://www.awin1.com/bclick.php?mid=1&group_name=Roger+Waters+72+x+392&gid=522&id=9532"><img border="0" src="http://www.awin1.com/show.php?mid=1&group=Roger+Waters+72+x+392&gid=522&aid=9532" width="72" height="392"></a>-->
+</td></tr></table>
+</center>
+ </td>
+ </tr>
+ <tr>
+<td colspan="3" height="25" align="center" background="file:///C:/Documents and Settings/Adam Larson/My Documents/My Webs/chef/img/bg.gif" align="center">
+<blockquote>
+<center>
+<a href="http://www.bidbunny.com" target="_blank">
+   &nbsp;</a><a href="http://www.ytsejamrecords.com/">
+   </a>
+
+</center>
+<p>
+<font size="0" color="#009999">
+The contents of this entire website are presented here as a non-profit and non-subscription
+service intended for the non-commercial purposes of criticism, research, comment, education,
+and archiving use only. This is pursuant to U.S. Code Sec. 107, Fair Use provision of the Copyright
+Act.</font>
+<br><br>
+</blockquote>
+<center>
+<font size="0" color="#009999">
+Copyright (C) 2003, Adam and Brady.<br>
+All pictures and texts are copyright to their respective owners and cannot be used without permission.
+</font>
+</center>
+ </td></tr>
+ </table>
+<table border="0" width="100%">
+    <tr>
+        <td bgcolor="#353535">
+        <p align="center">Hit Counters Make Chef Have To Pee.</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
