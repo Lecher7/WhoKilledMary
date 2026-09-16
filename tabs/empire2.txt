@@ -1,0 +1,133 @@
+
+#----------------------------------PLEASE NOTE---------------------------------#
+#This file is the author's own work and represents their interpretation of the #
+#song. You may only use this file for private study, scholarship, or research. #
+#------------------------------------------------------------------------------##
+From: Paul D <S3BZ@MUSIC.TRANSY.EDU>
+Subject: TAB: "Empire" by Queensryche (FINALLY!)
+
+"Empire" by Queensryche-->
+
+First off, there's the intro riff which is also the chorus part:
+repeat 4x
+E-|-----------------------------------------------------||
+B-|-----------------------------------------------------||
+G-|-2-2--2-4-2-----2---5-4-----5---7-5-----7---5--4h5-7-||
+D-|-2-2--3-3-3-----3---3-3-----3---5-5-----5---5------5-||
+A-|-0-0--------0-0---0-----0-0---0-----0-0---0----------||
+E-|-----------------------------------------------------||
+
+
+After you go through that twice, however, there is this little bit of lead
+that kinda copies the vocal line of the chorus:
+E-|----------------------------------|----------------------------------------|
+B-|-9b10r9---------------------------|-10--10----10-12--12-10-12-13--13-12-13-|
+G-|--------9-10---10-b12r10--9h10----|--------12------------------------------|
+D-|-------------------------------12-|----------------------------------------|
+A-|----------------------------------|----------------------------------------|
+E-|----------------------------------|----------------------------------------|
+
+
+E-|------------------------|
+B-|-12b15r12-12h13-10~~~~~~|
+G-|------------------------|
+D-|------------------------|
+A-|------------------------|(rhythm guitar ends on A5)
+E-|------------------------|
+
+The A5 is sustained throughout the verses with a few changes like so:
+
+A5
+Last night the word came down
+(A5)                 G5 C5 A5
+Ten dead in Chinatown
+(A5)
+Innocent, their only crime
+        B5                   slide to C5      A5
+Was bein' in the wrong place at the wrong time
+(A5)
+"Too bad", people say,
+(A5)                            G5 C5 A5
+"What's wrong with the kids today?"
+(A5)
+I'll tell you right now they got nothin' to lose
+G5               F5      A5
+They're building EMPIRE.
+
+
+Then this little lead bit:  B-|--8b10-(10)-(10)--| (sustained indefinitely)
+
+While the rhythm (once again) stays on A5.  Do the whole verse bit
+over again for the second verse.
+
+Here's the pre-chorus with some lyrics below to help you keep up (repeat
+the first section twice, then do the last bit right before the chorus):
+E-|--------------------------------------------------------------||-------|
+B-|-6---6-6-3--3-3--8--8-8-6--6-6--6--6-6-3--3-3-----------------||-------|
+G-|-5---5-5-2--2-2--7--7-7-5--5-5--5--5-5-2--2-2---5--5-5-5--5-5-||-------|
+D-|-0---0-0-0--0-0--0--0-0-0--0-0--0--0-0-0--0-0---5--5-5-5--5-5-||-3/5-5-|
+A-|------------------------------------------------3--3-3-3--3-3-||-3/5-5-|
+E-|--------------------------------------------------------------||-1/3-3-|
+   East side_________      Meets   West side___    downtown_____.
+   No   time_________        the   walls_fall____  down_____.
+
+
+After the second chorus, play this right before the bridge (the
+"bridge" is what I call the part where that guy does the commentary on
+law enforcement):
+E-|-----------------------||
+B-|-----------------------||
+G-|-5-----5-----5-/7~~~~~-||
+D-|-5--5--5--5--5-/7~~~~~-||
+A-|-3--5--3--5--3-/5~~~~~-||
+E-|----3-----3------------||
+
+Then play this part clean (actually with chorus and slight delay...
+but what the hell) during the commentary:
+E-|-0---------------------------3-------------------||
+B-|-3----3--3h5--3----5-6-5-3---3---5----5-6--5h6p5-||
+G-|-2----3-------2----5-5-5-2---0---5----5-5--5-----||
+D-|-0-----------------------------------------------||(repeat 4x)
+A-|-------------------------------------------------||
+E-|-------------------------------------------------||
+(When the commentary gets to "By way of comparison..." a second guitar
+should start chunging out an open D string with distortion and palm
+muting.)
+
+Then there's the solo and the chorus a few times until the end.  There's
+also a bit of lead stuff (guitar harmonization between Chris and Michael)
+over the last couple of choruses; really nifty lead work...but I'm not
+going to tab it!
+
+The lyrics to the second verse are:
+"Black man trapped again,
+Holds his chains in his hand.
+Brother killing brother for the profit of another.
+Game point...nobody wins.
+Decline right on time.
+What happened to the dream sublime?
+Tear it down we'll put it up again.
+Another EMPIRE!"
+
+The following are the "lyrics" to the commentary:
+"In fiscal year 1986 to 87, local, state, and federal governments
+spent a combined total of 60.6 billion dollars on law enforcement.
+Federal law enforcement expenditures ranked last in absolute dollars
+and accounted for only a sixth percent of all federal spending.
+By way of comparison, the federal government spent 24 million more on
+space exploration and 43 TIMES more on national defense and
+international relations than on law enforcement."
+
+Once again, you'll have to do this "sans solo" 'cause leads are a pain in
+my ass to tab out.  But put all the pieces together and you'll have
+something that vaguely resembles Queensryche's "Empire".  'Tis a great song
+and a great album.  Email me and be REAL nice and I might be pursuaded to
+tab out the solo after all...
+Corrections/comments/augmentations are most welcome and will be promptly
+responded to (but only if you email them to me).
+GOOD LUCK!
+Paul D. (s3bz@music.transy.edu)
+
+
+
+
